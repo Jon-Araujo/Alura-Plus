@@ -15,6 +15,8 @@ body {
     background: url(imagens/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -26,7 +28,7 @@ body {
     flex-direction: column;
     width: 588px;
     align-items: center;
-    padding: 125px 0 124px 54px;
+    padding-left: 5%;
 }
 
 .titulo-cabecalho {
@@ -39,7 +41,7 @@ body {
 }
 
 .img-combo {
-    width: 348px;
+    width: 60%;
     margin-bottom: 54px;
 }
 
@@ -48,11 +50,12 @@ body {
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
-    width: 512px;
+    width: 100%;
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     margin-bottom: 16px;
     border-radius: 8px;
+    border: none;
 }
 
 .botao-2-cabecalho {
@@ -60,8 +63,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
-    width: 512px;
-    background-color: var(--cor-de-fundo);
+    width: 100%;
+    background-color: transparent;
     color: var(--branco-principal);
     margin-bottom: 10px;
     border-radius: 8px;
@@ -174,4 +177,8 @@ body {
     line-height: 21px;
     color: var(--cinza-secundario);
     text-align: center;
+}
+
+.copyright {
+    margin-bottom: 24px;
 }
